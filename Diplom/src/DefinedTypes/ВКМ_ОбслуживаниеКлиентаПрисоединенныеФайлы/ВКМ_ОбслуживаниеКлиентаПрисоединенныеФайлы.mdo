@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc7fad10-c974-478d-94c4-65ac6d8e17fc">
+  <producedTypes>
+    <containerType typeId="feaf0607-4099-46de-9882-e689137e05f0" valueTypeId="bc39cf67-328e-4994-9aca-387cb8b8384e"/>
+  </producedTypes>
+  <name>ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ обслуживание клиента присоединенные файлы</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d1c233f-664e-4b0c-ab7b-377a70ffaa38">
+  <producedTypes>
+    <objectType typeId="a23bbc2c-3d70-44e0-bde6-b6a24d0f5ee8" valueTypeId="bff69fe0-90a8-4521-b348-69e339ad6691"/>
+    <refType typeId="6f271ccf-a747-4ca6-8530-100b3c935377" valueTypeId="eb6e75c3-38fe-466e-98b4-5164040ab12e"/>
+    <selectionType typeId="a1e69669-c19a-4765-95ef-1098cc159de4" valueTypeId="6845a218-e09c-4b88-b8bc-1172ab0f2efb"/>
+    <listType typeId="5461314b-f51a-4b70-a5e1-ed2d3af10af9" valueTypeId="bab4dc7d-2cd4-4629-bd3e-db7e67f52272"/>
+    <managerType typeId="78f3aaa6-60c7-47b7-93e7-6474501600ce" valueTypeId="00a80c0e-2cab-466a-940d-949303332902"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы (справочник)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>График работы</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8fe5fdb6-f971-4d8c-ad9a-6193cf217a2e">
+      <name>Пятидневка</name>
+      <description>Пятидневка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

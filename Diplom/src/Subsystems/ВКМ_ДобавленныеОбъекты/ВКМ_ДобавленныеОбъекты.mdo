@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="043df3b8-f2dd-40b7-bbb7-83621751b55e">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ДобавленныеОбъекты</picture>
+  </picture>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Constant.ВКМ_ТоккенУправленияTB</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Регистры</subsystems>
+</mdclass:Subsystem>
