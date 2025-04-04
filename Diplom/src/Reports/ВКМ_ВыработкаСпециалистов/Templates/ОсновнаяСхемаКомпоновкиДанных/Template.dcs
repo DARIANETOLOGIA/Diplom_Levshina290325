@@ -27,7 +27,7 @@
 	ВКМ_ВыполненныеСотрудникомРаботыОбороты.ЧасовКОплатеПриход КАК ЧасовКОплатеПриход,
 	ВКМ_ВыполненныеСотрудникомРаботыОбороты.СуммаКОплатеПриход КАК СуммаКОплатеПриход
 ИЗ
-	РегистрНакопления.ВКМ_ВыполненныеСотрудникомРаботы.Обороты(, , , Сотрудник = &amp;Сотрудник) КАК ВКМ_ВыполненныеСотрудникомРаботыОбороты</query>
+	РегистрНакопления.ВКМ_ВыполненныеСотрудникомРаботы.Обороты(, , , ) КАК ВКМ_ВыполненныеСотрудникомРаботыОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>ЧасовКОплатеПриход</dataPath>
@@ -92,21 +92,6 @@
 		<useRestriction>false</useRestriction>
 		<use>Always</use>
 	</parameter>
-	<parameter>
-		<name>Сотрудник</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Сотрудник</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВКМ_ФизическиеЛица</v8:Type>
-		</valueType>
-		<value xsi:nil="true"/>
-		<useRestriction>false</useRestriction>
-		<use>Always</use>
-	</parameter>
 	<settingsVariant>
 		<dcsset:name>Выработка специалистов</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -148,12 +133,6 @@
 						<v8:endDate>2024-10-31T23:59:59</v8:endDate>
 					</dcscor:value>
 					<dcsset:userSettingID>8eb80961-ee77-4b5f-a7d5-74d462c04c57</dcsset:userSettingID>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>Сотрудник</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>a0a4abe6-e0b0-4033-9d11-637c8dda0b46</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>

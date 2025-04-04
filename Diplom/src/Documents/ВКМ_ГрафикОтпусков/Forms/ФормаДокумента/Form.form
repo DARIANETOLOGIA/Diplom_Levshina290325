@@ -53,7 +53,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Дата</name>
-    <id>4</id>
+    <id>37</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -64,7 +64,7 @@
     </dataPath>
     <extendedTooltip>
       <name>ДатаРасширеннаяПодсказка</name>
-      <id>6</id>
+      <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -79,7 +79,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ДатаКонтекстноеМеню</name>
-      <id>5</id>
+      <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -88,7 +88,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
