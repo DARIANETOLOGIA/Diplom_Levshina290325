@@ -122,14 +122,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>Document.РеализацияТоваровУслуг.Attribute.Контрагент</field>
-    </choiceParameterLinks>
-    <choiceParameterLinks>
-      <name>Отбор.Организация</name>
-      <field>Document.РеализацияТоваровУслуг.Attribute.Организация</field>
-    </choiceParameterLinks>
     <choiceParameters>
       <name>Отбор.ВидДоговора</name>
       <value xsi:type="core:ReferenceValue">
